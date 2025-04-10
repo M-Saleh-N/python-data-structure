@@ -27,3 +27,11 @@ with open("example.txt", "w") as file:
 # APPEND TO A FILE
 with open("output.txt", "a") as file:
     file.write("This is a new line Rift Pro Software Engineering\n")
+#FILE MODES
+"""
+    "r" = Read (Default)
+    "w" = Write (Overwrite)
+    "a" = Append
+    "r+" = Read and Write
+
+"""
